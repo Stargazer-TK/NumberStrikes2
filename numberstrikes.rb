@@ -195,6 +195,7 @@ num_yobun14 = gets.to_s
   else
     #ここのelseで４回呼ばれてしまう。沢山出るので大変うざい。
     puts "全員違うとかｗｗｗｗ出直してきなさいｗｗｗ"
+    break
   end
 end
 =begin
